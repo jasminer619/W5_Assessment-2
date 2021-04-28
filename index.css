@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EE817C;
+    background-image: url(bg-intro-desktop.png);
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 100vw;
+}
+
+.content {
+    margin-top: 6%;
+}
+
+.content h1 {
+    color: white;
+    font-size: 50px;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.content p {
+    color: #FCE8E6;   
+    line-height: 30px;
+    font-size: 20px;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    height: 410px;
+    padding: 20px;
+}
+
+.box {
+    margin-left: 5%;
+}
+
+ .first {
+    color: white;
+    background-color: #5D549E;
+    border: none;
+    margin-bottom: 15px;
+    width: 540px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.second {
+    color: white;
+    background-color: #69C98F;
+    border: none;
+    width: 480px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 12px;
+}
+
+.box h6 {
+    color: #D0CED9;
+}
+
+input {
+    width: 470px;
+    margin: 15px;
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #F0EFEF;
+}
+
+h6 {
+    margin: 0;
+    align-content: center;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.pink {
+    color: #EE817C;
+    font-size: 9px;
+}
+
+.bold {
+    color: white;
+}
+
+.nobold {
+    color: #CEC8E6;
+}
+
+@media only screen and (max-width: 600px) { 
+
+   
+    .container {
+        flex-wrap: wrap;
+        font-family: Poppins;
+    }
+    
+    .content h1 {
+        padding: 0 10px;
+        font-size: 25px;
+        text-align: center;
+    }   
+
+    .content br p {
+        display: none;
+    }
+
+    .content p {
+        text-align: center;
+        font-size: 10px;
+        font-family: Poppins;
+        margin-bottom: 40px;
+    }
+
+    .box {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    form, .first {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .first {
+        margin-bottom: 30px ;
+        width: 90%;
+    }
+
+    .second {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    input {
+        width: 94%;
+        justify-content: center;
+        margin-left: 0;
+        color: #868587;
+    }
+
+    h6 {
+        margin: 10px 0 0 0;
+        font-size: 10px;
+    }
+
+}
